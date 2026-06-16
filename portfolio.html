@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celenear's Portfolio</title>
+    <style>
+        /* カラーパレットと基本設定（ダークテーマ） */
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --accent-color: #58a6ff;
+            --border-color: #30363d;
+            --card-bg: #161b22;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        /* ヘッダー周り */
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 30px;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #8b949e;
+            font-size: 1.2em;
+        }
+        /* セクション見出し */
+        h2 {
+            color: var(--accent-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+        h3 {
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+        p, li {
+            font-size: 1.05em;
+        }
+        /* プロジェクトカード */
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 25px;
+            margin-top: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        /* ロゴバッジ */
+        .badges {
+            margin: 15px 0;
+        }
+        .badges img {
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        /* スキルリストのグリッド配置 */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .skill-category {
+            flex: 1 1 300px;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        code {
+            background-color: rgba(110, 118, 129, 0.4);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Celenear's Portfolio</h1>
+            <div class="subtitle">国立高等専門学校 / ソフトウェア開発 / VRChatクリエイター</div>
+        </header>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                情報工学、データサイエンス、ときたまにソフトウェア開発に取り組んでいる。<br>
+                また、VRChat向けの世界構築や、Unityを用いたアバターのカスタマイズ（VRCFury, Modular Avatar等）など、VR技術にも強い関心を持つ。
+            </p>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="card">
+                <h3>Twitter Translate BOT for Discord</h3>
+                <p>Discord上のメッセージに含まれるTwitter (X) のリンクを自動的に検知し、指定された言語に翻訳して返信する高機能Bot。</p>
+                
+                <div class="badges">
+                    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+                    <img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
+                    <img src="https://img.shields.io/badge/aiohttp-2C5BB4?style=for-the-badge&logo=aiohttp&logoColor=white" alt="aiohttp">
+                </div>
+
+                <ul>
+                    <li><strong>シームレスな非同期処理</strong>: ユーザーのメッセージからリンクを抽出し、非同期HTTPクライアント（<code>aiohttp</code>）を用いてAPIから高速に翻訳結果を取得・表示。</li>
+                    <li><strong>インタラクティブなUIの実装</strong>: <code>discord.ui.View</code> を活用したボタンUIを実装。直感的に翻訳先の言語をリアルタイムで切り替え可能。</li>
+                    <li><strong>徹底したローカライゼーション</strong>: ユーザーのDiscordクライアント言語設定を自動判定し、システムメッセージやUIを動的に翻訳。</li>
+                    <li><strong>設定の永続化</strong>: コマンドで変更した設定を <code>bot_config.json</code> に保存し、再起動後も状態を維持する堅牢な設計。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills & Interests</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>💻 プログラミング / 開発</h3>
+                    <ul>
+                        <li>Python (データ分析、Discord Bot開発)</li>
+                        <li>Unity (VRChatワールド構築、アバター改変)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>📚 学習領域</h3>
+                    <ul>
+                        <li>情報理論、離散数学、複素解析</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>🎨 趣味・活動</h3>
+                    <ul>
+                        <li>デジタルイラスト制作 (CLIP STUDIO, Affinity Photo)</li>
+                        <li>写真撮影、温泉巡り</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
