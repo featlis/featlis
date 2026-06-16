@@ -1,8 +1,3 @@
----
-layout: default
-title: Celenear's Portfolio
----
-
 # Portfolio
 
 ## About Me
