@@ -14,11 +14,11 @@
 ### Twitter Translate BOT for Discord
 Discord上のメッセージに含まれるTwitter (X) のリンクを自動的に検知し、指定された言語に翻訳して返信する高機能Bot。
 
-#### 🛠 使用技術
+#### 🛠 使用技術（？）
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-  <img src="https://img.shields.io/badge/aiohttp-2C5BB4?style=for-the-badge&logo=aiohttp&logoColor=white" alt="aiohttp">
+  <img src="https://img.shields.io/badge/aiohttp-2C5BB4?style=for-the-badge&logo=aiohttp&logoColor=white" alt="aiohttp"
 </p>
 
 #### ✨ 主な機能と技術的な工夫
