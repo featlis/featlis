@@ -111,10 +111,18 @@
 
         <section>
             <h2>About Me</h2>
+            <div style="text-align: center; margin: 20px 0;">
+                <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/IamSeries/png/IamProgrammer!.png" height="50" alt="I am Programmer">
+            </div>
             <p>
-                情報工学、データサイエンス、ときたまにソフトウェア開発に取り組んでいる。<br>
-                また、VRChat向けの世界構築や、Unityを用いたアバターのカスタマイズ（VRCFury, Modular Avatar等）など、VR技術にも強い関心を持つ。
+                情報工学やデータサイエンスの勉強をしています。<br>
+                プログラミングはまだ勉強中で未熟ですが、少しずつソフトウェア開発にも挑戦しています。<br>
+                また、VRChatのワールド作成やUnityを使ったアバター改変など、VRの世界で遊ぶことも好きです。
             </p>
+            <div style="text-align: center; margin-top: 30px;">
+                <img src="https://github-readme-stats.vercel.app/api?username=featlis&show_icons=true&theme=tokyonight&hide_border=true&bg_color=161b22" height="150" alt="GitHub Stats" style="margin: 5px; max-width: 100%;">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=featlis&layout=compact&theme=tokyonight&hide_border=true&bg_color=161b22" height="150" alt="Top Languages" style="margin: 5px; max-width: 100%;">
+            </div>
         </section>
 
         <section>
@@ -122,23 +130,23 @@
             
             <div class="card">
                 <h3>PrintTweet for Discord</h3>
-                <p>Twitter(X)のURLをスラッシュコマンドで渡すと、ツイートの綺麗なスクリーンショット画像をDiscord上に返すBot。</p>
+                <p>Twitter(X)のURLから、ツイートのスクリーンショット画像をDiscordに送信する小さなBotを作ってみました。</p>
                 
                 <div class="badges">
                     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
                     <img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-                    <img src="https://img.shields.io/badge/tweetcapture-000000?style=for-the-badge&logo=github&logoColor=white" alt="tweetcapture">
+                    <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/GitHub/png/GitHub.png" height="30" alt="GitHub (tweetcapture)" style="vertical-align: middle;">
                 </div>
 
                 <ul>
-                    <li><strong>高品質な画像生成</strong>: <code>tweetcapture</code> を用いて、RT・いいね数なども含めたツイートの完全なスクリーンショットを生成。</li>
-                    <li><strong>柔軟なテーマ対応</strong>: スラッシュコマンド（<code>/print</code>）の引数として、ライトモード / ダークモード / ブラックモードのテーマ選択が可能。</li>
+                    <li><strong>高品質な画像生成</strong>: <code>tweetcapture</code> を用いて、RT・いいね数なども含めたツイートのスクリーンショットを生成します。</li>
+                    <li><strong>柔軟なテーマ対応</strong>: スラッシュコマンド（<code>/print</code>）の引数でライトモード / ダークモード / ブラックモードのテーマ選択が可能です。</li>
                 </ul>
             </div>
 
             <div class="card">
                 <h3>Twitter Translate BOT for Discord</h3>
-                <p>Discord上のメッセージに含まれるTwitter (X) のリンクを自動的に検知し、指定された言語に翻訳して返信する高機能Bot。</p>
+                <p>Discordでのコミュニケーションを少し便利にしたくて、X(Twitter)のリンクを検知して翻訳するBotを作成しました。</p>
                 
                 <div class="badges">
                     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -147,10 +155,10 @@
                 </div>
 
                 <ul>
-                    <li><strong>シームレスな非同期処理</strong>: ユーザーのメッセージからリンクを抽出し、非同期HTTPクライアント（<code>aiohttp</code>）を用いてAPIから高速に翻訳結果を取得・表示。</li>
-                    <li><strong>インタラクティブなUIの実装</strong>: <code>discord.ui.View</code> を活用したボタンUIを実装。直感的に翻訳先の言語をリアルタイムで切り替え可能。</li>
-                    <li><strong>徹底したローカライゼーション</strong>: ユーザーのDiscordクライアント言語設定を自動判定し、システムメッセージやUIを動的に翻訳。</li>
-                    <li><strong>設定の永続化</strong>: コマンドで変更した設定を <code>bot_config.json</code> に保存し、再起動後も状態を維持する堅牢な設計。</li>
+                    <li><strong>非同期処理</strong>: ユーザーのメッセージからリンクを抽出し、非同期HTTPクライアント（<code>aiohttp</code>）を用いてAPIから翻訳結果を取得します。</li>
+                    <li><strong>UIの実装</strong>: <code>discord.ui.View</code> を活用したボタンUIを実装し、チャット上で直感的に翻訳先の言語を切り替えられるようにしました。</li>
+                    <li><strong>ローカライゼーション</strong>: ユーザーのDiscordクライアント言語設定を判定し、メッセージを翻訳する仕組みを取り入れました。</li>
+                    <li><strong>設定の永続化</strong>: スラッシュコマンドで変更したサーバー設定を <code>bot_config.json</code> に保存するようにしました。</li>
                 </ul>
             </div>
         </section>
@@ -180,6 +188,15 @@
                 </div>
             </div>
         </section>
+
+        <footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--border-color); font-size: 0.9em; color: #8b949e; text-align: center;">
+            <p>Credits & License:</p>
+            <ul style="list-style: none; padding: 0;">
+                <li>Logos by <a href="https://github.com/SAWARATSUKI/KawaiiLogos" target="_blank" style="color: var(--accent-color); text-decoration: none;">SAWARATSUKI</a> (CC BY-NC 4.0)</li>
+                <li>Stats Cards by <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" style="color: var(--accent-color); text-decoration: none;">anuraghazra</a> (MIT)</li>
+                <li>Typing SVG by <a href="https://github.com/DenverCoder1/readme-typing-svg" target="_blank" style="color: var(--accent-color); text-decoration: none;">DenverCoder1</a> (MIT)</li>
+            </ul>
+        </footer>
     </div>
 </body>
 </html>
