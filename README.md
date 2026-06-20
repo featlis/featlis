@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=M+PLUS+Rounded+1c&size=40&pause=1000&color=FF9ECD&center=true&vCenter=true&width=600&height=80&lines=Welcome+to+my+Portfolio!;Celenear's+Portfolio+%E2%9C%A8" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?font=M+PLUS+Rounded+1c&size=40&pause=1000&color=FF9ECD&center=true&vCenter=true&width=600&height=80&lines=Welcome+to+my+Portfolio!;Featlis%27s+Portfolio+%E2%9C%A8" alt="Typing SVG">
 </div>
 
 ## 🌸 About Me
