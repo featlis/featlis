@@ -6,7 +6,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=1600&pause=10000&color=38B3F7&width=900&height=70&lines=%E3%82%88%E3%82%8F%E3%82%88%E3%82%8F%E3%83%87%E3%83%99%E3%83%AD%E3%83%83%E3%83%91%E3%83%BC%E7%AD%86%E9%A0%AD%E3%82%92%E5%8B%9D%E6%89%8B%E3%81%AB%E5%8B%99%E3%82%81%E3%81%95%E3%81%9B%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A0%E3%81%84%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99)](https://git.io/typing-svg)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/IamSeries/png/IamProgrammer!.png" height="50" alt="I am Programmer">
+  <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/IamSeries/png/IamProgrammer!.png" width="350" alt="I am Programmer">
 </div>
 
 情報工学やデータサイエンスの勉強をしています。プログラミングはまだ勉強中で未熟ですが、少しずつソフトウェア開発にも挑戦しています。
