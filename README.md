@@ -26,7 +26,7 @@ Twitter(X)のURLから、ツイートのスクリーンショット画像をDisc
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-  <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/GitHub/png/GitHub.png" height="30" alt="GitHub (tweetcapture)">
+  <img src="https://img.shields.io/badge/tweetcapture-000000?style=for-the-badge&logo=github&logoColor=white" alt="tweetcapture">
 </p>
 
 #### ✨ 主な機能と技術的な工夫
