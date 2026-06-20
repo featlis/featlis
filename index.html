@@ -6,14 +6,14 @@
     <title>Celenear's Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        /* カラーパレットと基本設定（ダークテーマ） */
+        /* カラーパレットと基本設定（ライトテーマ） */
         :root {
-            --bg-color: #0d1117;
-            --text-color: #c9d1d9;
-            --accent-color: #ff9ecd; /* かわいいピンク色に変更 */
-            --border-color: #30363d;
-            --card-bg: #161b22;
-            --hover-shadow: rgba(255, 158, 205, 0.4); /* ホバー時のピンクの影 */
+            --bg-color: #faf8f9; /* 柔らかい薄ピンクを帯びた白 */
+            --text-color: #333333; /* 読みやすい濃いグレー */
+            --accent-color: #ff6584; /* 少し濃く視認性を高めたかわいいピンク */
+            --border-color: #f3d6e4; /* 淡いピンクのボーダー */
+            --card-bg: #ffffff; /* 白色のカード */
+            --hover-shadow: rgba(255, 101, 132, 0.25); /* 柔らかいピンクの影 */
         }
         
         /* アニメーション設定 */
@@ -40,8 +40,8 @@
         body {
             font-family: "Nunito", "M PLUS Rounded 1c", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
-            background-image: radial-gradient(circle at top right, rgba(255, 158, 205, 0.05), transparent 40%),
-                              radial-gradient(circle at bottom left, rgba(88, 166, 255, 0.05), transparent 40%);
+            background-image: radial-gradient(circle at top right, rgba(255, 101, 132, 0.08), transparent 40%),
+                              radial-gradient(circle at bottom left, rgba(88, 166, 255, 0.08), transparent 40%);
             color: var(--text-color);
             line-height: 1.6;
             margin: 0;
@@ -60,12 +60,12 @@
             padding-bottom: 30px;
         }
         h1 {
-            color: #ffffff;
+            color: #2c3e50;
             font-size: 2.5em;
             margin-bottom: 10px;
         }
         .subtitle {
-            color: #8b949e;
+            color: #555555;
             font-size: 1.2em;
         }
         /* セクション見出し */
@@ -76,7 +76,7 @@
             margin-top: 40px;
         }
         h3 {
-            color: #ffffff;
+            color: #2c3e50;
             margin-bottom: 10px;
         }
         p, li {
@@ -142,7 +142,8 @@
             margin-bottom: 8px;
         }
         code {
-            background-color: rgba(110, 118, 129, 0.4);
+            background-color: rgba(255, 101, 132, 0.1);
+            color: #d63384;
             padding: 2px 6px;
             border-radius: 4px;
             font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
@@ -168,8 +169,8 @@
                 また、VRChatのワールド作成やUnityを使ったアバター改変など、VRの世界で遊ぶことも好きです。
             </p>
             <div style="text-align: center; margin-top: 30px;">
-                <img src="https://github-readme-stats.vercel.app/api?username=featlis&show_icons=true&theme=tokyonight&hide_border=true&bg_color=161b22" class="stats-card" height="150" alt="GitHub Stats" style="margin: 5px; max-width: 100%;">
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=featlis&layout=compact&theme=tokyonight&hide_border=true&bg_color=161b22" class="stats-card" height="150" alt="Top Languages" style="margin: 5px; max-width: 100%;">
+                <img src="https://github-readme-stats.vercel.app/api?username=featlis&show_icons=true&hide_border=true&bg_color=ffffff&title_color=ff6584&text_color=333333&icon_color=ff6584" class="stats-card" height="150" alt="GitHub Stats" style="margin: 5px; max-width: 100%;">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=featlis&layout=compact&hide_border=true&bg_color=ffffff&title_color=ff6584&text_color=333333&icon_color=ff6584" class="stats-card" height="150" alt="Top Languages" style="margin: 5px; max-width: 100%;">
             </div>
         </section>
 
