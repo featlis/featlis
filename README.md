@@ -23,7 +23,7 @@ Hi there! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/ma
 
 ## 🎀 Projects
 
-### 🖨️ PrintTweet for Discord
+### 📸 PrintTweet for Discord
 Twitter(X)のURLから、ツイートのスクリーンショット画像をDiscordに送信する小さなBotを作ってみました。
 
 #### 🛠 使用技術
