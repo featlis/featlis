@@ -4,18 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Celenear's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <style>
         /* カラーパレットと基本設定（ダークテーマ） */
         :root {
             --bg-color: #0d1117;
             --text-color: #c9d1d9;
-            --accent-color: #58a6ff;
+            --accent-color: #ff9ecd; /* かわいいピンク色に変更 */
             --border-color: #30363d;
             --card-bg: #161b22;
+            --hover-shadow: rgba(255, 158, 205, 0.4); /* ホバー時のピンクの影 */
         }
+        
+        /* アニメーション設定 */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-12px); }
+            100% { transform: translateY(0px); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .float-anim {
+            animation: float 3s ease-in-out infinite;
+        }
+        .fade-in {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+        }
+        section:nth-of-type(1) { animation-delay: 0.1s; }
+        section:nth-of-type(2) { animation-delay: 0.3s; }
+        section:nth-of-type(3) { animation-delay: 0.5s; }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            font-family: "Nunito", "M PLUS Rounded 1c", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
+            background-image: radial-gradient(circle at top right, rgba(255, 158, 205, 0.05), transparent 40%),
+                              radial-gradient(circle at bottom left, rgba(88, 166, 255, 0.05), transparent 40%);
             color: var(--text-color);
             line-height: 1.6;
             margin: 0;
@@ -56,14 +82,30 @@
         p, li {
             font-size: 1.05em;
         }
+        /* 統計カードのホバー効果 */
+        .stats-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 8px;
+        }
+        .stats-card:hover {
+            transform: scale(1.05) rotate(2deg);
+            box-shadow: 0 8px 15px var(--hover-shadow);
+        }
+
         /* プロジェクトカード */
         .card {
             background-color: var(--card-bg);
             border: 1px solid var(--border-color);
-            border-radius: 8px;
+            border-radius: 16px; /* 丸みを追加 */
             padding: 25px;
             margin-top: 20px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 20px var(--hover-shadow);
+            border-color: var(--accent-color);
         }
         /* ロゴバッジ */
         .badges {
@@ -84,8 +126,14 @@
             flex: 1 1 300px;
             background-color: var(--card-bg);
             border: 1px solid var(--border-color);
-            border-radius: 8px;
+            border-radius: 16px; /* 丸みを追加 */
             padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+        .skill-category:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 12px 20px var(--hover-shadow);
+            border-color: var(--accent-color);
         }
         ul {
             padding-left: 20px;
@@ -109,10 +157,10 @@
             <div class="subtitle">国立高等専門学校 / ソフトウェア開発 / VRChatクリエイター</div>
         </header>
 
-        <section>
+        <section class="fade-in">
             <h2>About Me</h2>
             <div style="text-align: center; margin: 20px 0;">
-                <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/IamSeries/png/IamProgrammer!.png" style="width: 350px; max-width: 100%; height: auto;" alt="I am Programmer">
+                <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/IamSeries/png/IamProgrammer!.png" class="float-anim" style="width: 350px; max-width: 100%; height: auto;" alt="I am Programmer">
             </div>
             <p>
                 情報工学やデータサイエンスの勉強をしています。<br>
@@ -120,12 +168,12 @@
                 また、VRChatのワールド作成やUnityを使ったアバター改変など、VRの世界で遊ぶことも好きです。
             </p>
             <div style="text-align: center; margin-top: 30px;">
-                <img src="https://github-readme-stats.vercel.app/api?username=featlis&show_icons=true&theme=tokyonight&hide_border=true&bg_color=161b22" height="150" alt="GitHub Stats" style="margin: 5px; max-width: 100%;">
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=featlis&layout=compact&theme=tokyonight&hide_border=true&bg_color=161b22" height="150" alt="Top Languages" style="margin: 5px; max-width: 100%;">
+                <img src="https://github-readme-stats.vercel.app/api?username=featlis&show_icons=true&theme=tokyonight&hide_border=true&bg_color=161b22" class="stats-card" height="150" alt="GitHub Stats" style="margin: 5px; max-width: 100%;">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=featlis&layout=compact&theme=tokyonight&hide_border=true&bg_color=161b22" class="stats-card" height="150" alt="Top Languages" style="margin: 5px; max-width: 100%;">
             </div>
         </section>
 
-        <section>
+        <section class="fade-in">
             <h2>Projects</h2>
             
             <div class="card">
@@ -163,7 +211,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="fade-in">
             <h2>Skills & Interests</h2>
             <div class="skills-container">
                 <div class="skill-category">
