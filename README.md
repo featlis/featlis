@@ -1,9 +1,11 @@
-# Portfolio
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=M+PLUS+Rounded+1c&size=40&pause=1000&color=FF9ECD&center=true&vCenter=true&width=600&height=80&lines=Welcome+to+my+Portfolio!;Celenear's+Portfolio+%E2%9C%A8" alt="Typing SVG">
+</div>
 
-## About Me
-**featlis**
+## 🌸 About Me
+Hi there! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> I'm **featlis**
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=1600&pause=10000&color=38B3F7&width=900&height=70&lines=%E3%82%88%E3%82%8F%E3%82%88%E3%82%8F%E3%83%87%E3%83%99%E3%83%AD%E3%83%83%E3%83%91%E3%83%BC%E7%AD%86%E9%A0%AD%E3%82%92%E5%8B%9D%E6%89%8B%E3%81%AB%E5%8B%99%E3%82%81%E3%81%95%E3%81%9B%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A0%E3%81%84%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=M+PLUS+Rounded+1c&size=25&duration=1600&pause=10000&color=FF9ECD&width=900&height=70&lines=%E3%82%88%E3%82%8F%E3%82%88%E3%82%8F%E3%83%87%E3%83%99%E3%83%AD%E3%83%83%E3%83%91%E3%83%BC%E7%AD%86%E9%A0%AD%E3%82%92%E5%8B%9D%E6%89%8B%E3%81%AB%E5%8B%99%E3%82%81%E3%81%95%E3%81%9B%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A0%E3%81%84%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99)](https://git.io/typing-svg)
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/IamSeries/png/IamProgrammer!.png" width="350" alt="I am Programmer">
@@ -13,13 +15,15 @@
 また、VRChatのワールド作成やUnityを使ったアバター改変など、VRの世界で遊ぶことも好きです。
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=featlis&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="150" alt="GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=featlis&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="150" alt="Top Languages">
+  <img src="https://github-readme-stats.vercel.app/api?username=featlis&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" height="150" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=featlis&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" height="150" alt="Top Languages">
 </div>
 
-## Projects
+<br>
 
-### PrintTweet for Discord
+## 🎀 Projects
+
+### 🖨️ PrintTweet for Discord
 Twitter(X)のURLから、ツイートのスクリーンショット画像をDiscordに送信する小さなBotを作ってみました。
 
 #### 🛠 使用技術
@@ -33,7 +37,7 @@ Twitter(X)のURLから、ツイートのスクリーンショット画像をDisc
 * **高品質な画像生成**: `tweetcapture` を用いて、RT・いいね数なども含めたツイートのスクリーンショットを生成します。
 * **柔軟なテーマ対応**: スラッシュコマンド引数でライト・ダーク・ブラックモードを切り替えられます。
 
-### Twitter Translate BOT for Discord
+### 🌐 Twitter Translate BOT for Discord
 Discordでのコミュニケーションを少し便利にする、X(Twitter)のリンクを検知して翻訳するBotを作成しました。
 
 #### 🛠 使用技術
@@ -49,17 +53,21 @@ Discordでのコミュニケーションを少し便利にする、X(Twitter)の
 * **ローカライゼーション**: ユーザーのDiscordクライアント言語設定を判定し、メッセージを翻訳する仕組みを取り入れました。
 * **設定の永続化**: スラッシュコマンドで変更したサーバー設定を `bot_config.json` に保存するようにしました。
 
-## Skills & Interests
-* **プログラミング / ソフトウェア開発**
+<br>
+
+## 🍰 Skills & Interests
+* 💻 **プログラミング / ソフトウェア開発**
   * Python (データ分析、Discord Bot開発)
   * Unity (VRChatワールド構築、アバター改変)
-* **学習領域**
+* 📚 **学習領域**
   * 情報理論、離散数学、複素解析
-* **趣味・活動**
+* 🎨 **趣味・活動**
   * デジタルイラスト制作 (CLIP STUDIO PAINT, Affinity Photo)
   * ゲーム、読書
 
-## Credits & License
+<br>
+
+## 🧸 Credits & License
 このプロフィールおよびポートフォリオでは、以下の素晴らしいリソース・ライブラリを使用させていただいています：
 
 - **KAWAII LOGOS** by [SAWARATSUKI](https://github.com/SAWARATSUKI/KawaiiLogos) (Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ja))
