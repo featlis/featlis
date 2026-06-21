@@ -70,9 +70,19 @@ Discordでのコミュニケーションを少し便利にする、X(Twitter)の
 ## 💬 Contact
 ご連絡はこちらまでお気軽にどうぞ！
 <br>
-<a href="https://discord.com/users/533128660044218408" target="_blank">
-  <img src="https://img.icons8.com/fluency/96/discord-logo.png" height="60" alt="Discord">
-</a>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://discord.com/users/533128660044218408" target="_blank" style="text-decoration: none; color: inherit;">
+          <img src="https://img.icons8.com/fluency/96/discord-logo.png" width="45" alt="Discord"><br>
+          <b>Discord</b><br>
+          <code>featlis</code>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <br>
 
