@@ -28,9 +28,9 @@ Twitter(X)のURLから、ツイートのスクリーンショット画像をDisc
 
 #### 🛠 使用技術
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-  <img src="https://img.shields.io/badge/tweetcapture-000000?style=for-the-badge&logo=github&logoColor=white" alt="tweetcapture">
+  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://discordpy.readthedocs.io/" target="_blank"><img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://github.com/Xacnio/tweetcapture" target="_blank"><img src="https://img.shields.io/badge/tweetcapture-000000?style=for-the-badge&logo=github&logoColor=white" alt="tweetcapture"></a>
 </p>
 
 #### ✨ 主な機能と技術的な工夫
@@ -42,9 +42,9 @@ Discordでのコミュニケーションを少し便利にする、X(Twitter)の
 
 #### 🛠 使用技術
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-  <img src="https://img.shields.io/badge/aiohttp-2C5BB4?style=for-the-badge&logo=aiohttp&logoColor=white" alt="aiohttp">
+  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://discordpy.readthedocs.io/" target="_blank"><img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://docs.aiohttp.org/" target="_blank"><img src="https://img.shields.io/badge/aiohttp-2C5BB4?style=for-the-badge&logo=aiohttp&logoColor=white" alt="aiohttp"></a>
 </p>
 
 #### ✨ 主な機能と技術的な工夫
@@ -64,6 +64,15 @@ Discordでのコミュニケーションを少し便利にする、X(Twitter)の
 * 🎨 **趣味・活動**
   * デジタルイラスト制作 (CLIP STUDIO PAINT, Affinity Photo)
   * ゲーム、読書
+
+<br>
+
+## 💬 Contact
+ご連絡はこちらまでお気軽にどうぞ！
+<br>
+<a href="https://discord.com/users/533128660044218408" target="_blank">
+  <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/Discord/Discord.png" height="60" alt="Discord">
+</a>
 
 <br>
 
