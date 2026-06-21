@@ -71,7 +71,7 @@ Discordでのコミュニケーションを少し便利にする、X(Twitter)の
 ご連絡はこちらまでお気軽にどうぞ！
 <br>
 <a href="https://discord.com/users/533128660044218408" target="_blank">
-  <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/Discord/Discord.png" height="60" alt="Discord">
+  <img src="https://img.icons8.com/fluency/96/discord-logo.png" height="60" alt="Discord">
 </a>
 
 <br>
