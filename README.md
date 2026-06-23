@@ -23,6 +23,22 @@ Hi there! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/ma
 
 ## 🎀 Projects
 
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <h3>🤖 Discord BOT 配布ページ</h3>
+        <p>自作のDiscord BOT（翻訳、時報など）の導入リンクや詳細な使い方をまとめています！</p>
+        <a href="https://featlis.github.io/featlis-discordbot/">
+          <img src="https://img.shields.io/badge/-%E9%85%8D%E5%B8%83%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%92%E8%A6%8B%E3%82%8B%20%E2%9C%A8-FF6584?style=for-the-badge&logoColor=white" alt="配布ページへ">
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>
+
 ### 📸 PrintTweet for Discord
 Twitter(X)のURLから、ツイートのスクリーンショット画像をDiscordに送信する小さなBotを作ってみました。
 
