@@ -15,8 +15,8 @@ Hi there! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/ma
 また、VRChatのワールド作成やUnityを使ったアバター改変など、VRの世界で遊ぶことも好きです。
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=featlis&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" height="150" alt="GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=featlis&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" height="150" alt="Top Languages">
+  <img src="https://github-stats-extended.vercel.app/api?username=featlis&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" height="150" alt="GitHub Stats">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=featlis&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" height="150" alt="Top Languages">
 </div>
 
 <br>
