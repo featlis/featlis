@@ -22,7 +22,9 @@ Hi there! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/ma
 <br>
 
 <div align="center">
-  <iframe src="https://github.com/sponsors/featlis/card" title="Sponsor featlis" height="225" width="600" style="border: 0;"></iframe>
+  <a href="https://github.com/sponsors/featlis" target="_blank">
+    <img src="https://img.shields.io/badge/Sponsor-featlis-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor featlis">
+  </a>
 </div>
 
 <br>
