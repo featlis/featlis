@@ -119,7 +119,7 @@ Discordでのコミュニケーションを少し便利にする、X(Twitter)の
 <br>
 
 ## 🧸 Credits & License
-このプロフィールおよびポートフォリオでは、以下の素晴らしいリソース・ライブラリを使用させていただいています：
+↓このプロフィールおよびポートフォリオでは、以下の素晴らしいリソース・ライブラリを使用させていただいています↓
 
 - **KAWAII LOGOS** by [SAWARATSUKI](https://github.com/SAWARATSUKI/KawaiiLogos) (Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ja))
 - **GitHub Readme Stats** by [anuraghazra](https://github.com/anuraghazra/github-readme-stats) (Licensed under [MIT License](https://github.com/anuraghazra/github-readme-stats/blob/master/LICENSE))
