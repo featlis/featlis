@@ -55,8 +55,6 @@ Hi there! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/ma
 
 <br>
 
-
-
 ## 🍰 Skills & Interests
 * 💻 **プログラミング / ソフトウェア開発**
   * Python (データ分析、Discord Bot開発)
