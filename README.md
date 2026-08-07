@@ -55,37 +55,7 @@ Hi there! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/ma
 
 <br>
 
-### 📸 PrintTweet for Discord
-Twitter(X)のURLから、ツイートのスクリーンショット画像をDiscordに送信する小さなBotを作ってみました。
 
-#### 🛠 使用技術
-<p>
-  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
-  <a href="https://discordpy.readthedocs.io/" target="_blank"><img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
-  <a href="https://github.com/Xacnio/tweetcapture" target="_blank"><img src="https://img.shields.io/badge/tweetcapture-000000?style=for-the-badge&logo=github&logoColor=white" alt="tweetcapture"></a>
-</p>
-
-#### ✨ 主な機能と技術的な工夫
-* **高品質な画像生成**: `tweetcapture` を用いて、RT・いいね数なども含めたツイートのスクリーンショットを生成します。
-* **柔軟なテーマ対応**: スラッシュコマンド引数でライト・ダーク・ブラックモードを切り替えられます。
-
-### 🌐 Twitter Translate BOT for Discord
-Discordでのコミュニケーションを少し便利にする、X(Twitter)のリンクを検知して翻訳するBotを作成しました。
-
-#### 🛠 使用技術
-<p>
-  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
-  <a href="https://discordpy.readthedocs.io/" target="_blank"><img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
-  <a href="https://docs.aiohttp.org/" target="_blank"><img src="https://img.shields.io/badge/aiohttp-2C5BB4?style=for-the-badge&logo=aiohttp&logoColor=white" alt="aiohttp"></a>
-</p>
-
-#### ✨ 主な機能と技術的な工夫
-* **非同期処理**: ユーザーのメッセージからリンクを抽出し、非同期HTTPクライアント（`aiohttp`）を用いてAPIから翻訳結果を取得します。
-* **UIの実装**: `discord.ui.View` を活用したボタンUIを実装し、チャット上で直感的に翻訳先の言語を切り替えられるようにしました。
-* **ローカライゼーション**: ユーザーのDiscordクライアント言語設定を判定し、メッセージを翻訳する仕組みを取り入れました。
-* **設定の永続化**: スラッシュコマンドで変更したサーバー設定を `bot_config.json` に保存するようにしました。
-
-<br>
 
 ## 🍰 Skills & Interests
 * 💻 **プログラミング / ソフトウェア開発**
