@@ -16,8 +16,7 @@ Hi there! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/ma
 
 <div align="center">
   <img src="https://github-stats-extended.vercel.app/api?username=featlis&show_icons=true&bg_color=ffffff&title_color=fe428e&text_color=434d58&icon_color=fe428e" height="150" alt="GitHub Stats">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=featlis&layout=compact&hide_border=true&bg_color=ffffff&title_color=fe428e&text_color=434d58&icon_color=fe428e
-" height="150" alt="Top Languages">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=featlis&layout=compact&hide_border=true&bg_color=ffffff&title_color=fe428e&text_color=434d58&icon_color=fe428e" height="150" alt="Top Languages">
 </div>
 
 <br>
